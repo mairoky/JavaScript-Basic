@@ -33,3 +33,15 @@ Variable Naming Convension
     3. variable names are case sensitive
     4. can’t use one of JavaScript’s reserved words as a variable name
 */
+
+// variable mutation
+age = 35;
+console.log(age);
+age = 'thirty one';
+console.log(age);
+// Type Coercion
+var firstName = 'Mark';
+var lastName = 'Hardy';
+var isSingle = true;
+console.log(firstName + ' ' + lastName + ' ' + age + ' years old.' + ' Is he single: ' + isSingle);
+
